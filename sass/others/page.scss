@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../../img/mars-4k.jpg');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.topLogo {
+  width: 400px;
+}
+
+.paragraph {
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: small;
+}
+
+@media only screen and (min-device-width: 400px) {
+  body {
+    background-image: url('../../img/mars-4k.jpg');
+  }
+}
